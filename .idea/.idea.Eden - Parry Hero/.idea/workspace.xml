@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="442f28e4-f2e7-4568-ad2d-4ff535f258f6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/PolygonFantasyHeroCharacters/Materials/CustomMaterials/FantasyHero_01.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/PolygonFantasyHeroCharacters/Materials/CustomMaterials/FantasyHero_01.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/PolygonFantasyHeroCharacters/Materials/StandardMaterials/PolygonFantasyHero_Texture_01_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/PolygonFantasyHeroCharacters/Materials/StandardMaterials/PolygonFantasyHero_Texture_01_A.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/PolygonFantasyHeroCharacters/Materials/StandardMaterials/PolygonFantasyHero_Texture_01_B.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/PolygonFantasyHeroCharacters/Materials/StandardMaterials/PolygonFantasyHero_Texture_01_B.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/PolygonFantasyHeroCharacters/Materials/StandardMaterials/PolygonFantasyHero_Texture_01_C.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/PolygonFantasyHeroCharacters/Materials/StandardMaterials/PolygonFantasyHero_Texture_01_C.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/PolygonFantasyHeroCharacters/Materials/StandardMaterials/PolygonFantasyHero_Texture_02_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/PolygonFantasyHeroCharacters/Materials/StandardMaterials/PolygonFantasyHero_Texture_02_A.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/PolygonFantasyHeroCharacters/Materials/StandardMaterials/PolygonFantasyHero_Texture_02_B.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/PolygonFantasyHeroCharacters/Materials/StandardMaterials/PolygonFantasyHero_Texture_02_B.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/PolygonFantasyHeroCharacters/Materials/StandardMaterials/PolygonFantasyHero_Texture_02_C.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/PolygonFantasyHeroCharacters/Materials/StandardMaterials/PolygonFantasyHero_Texture_02_C.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/PolygonFantasyHeroCharacters/Materials/StandardMaterials/PolygonFantasyHero_Texture_03_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/PolygonFantasyHeroCharacters/Materials/StandardMaterials/PolygonFantasyHero_Texture_03_A.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/PolygonFantasyHeroCharacters/Materials/StandardMaterials/PolygonFantasyHero_Texture_03_B.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/PolygonFantasyHeroCharacters/Materials/StandardMaterials/PolygonFantasyHero_Texture_03_B.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/PolygonFantasyHeroCharacters/Materials/StandardMaterials/PolygonFantasyHero_Texture_03_C.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/PolygonFantasyHeroCharacters/Materials/StandardMaterials/PolygonFantasyHero_Texture_03_C.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/PolygonFantasyHeroCharacters/Materials/StandardMaterials/PolygonFantasyHero_Texture_04_A.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/PolygonFantasyHeroCharacters/Materials/StandardMaterials/PolygonFantasyHero_Texture_04_A.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/PolygonFantasyHeroCharacters/Materials/StandardMaterials/PolygonFantasyHero_Texture_04_B.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/PolygonFantasyHeroCharacters/Materials/StandardMaterials/PolygonFantasyHero_Texture_04_B.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/PolygonFantasyHeroCharacters/Materials/StandardMaterials/PolygonFantasyHero_Texture_04_C.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/PolygonFantasyHeroCharacters/Materials/StandardMaterials/PolygonFantasyHero_Texture_04_C.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/1 SKIN-DARKEST-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/1 SKIN-DARKEST-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/10 BROWN-DARK-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/10 BROWN-DARK-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/11 BROWN-MEDIUM-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/11 BROWN-MEDIUM-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/12 BROWN-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/12 BROWN-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/13 BROWN-LIGHT-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/13 BROWN-LIGHT-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/14 BROWN LIGHTEST-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/14 BROWN LIGHTEST-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/15 BROWN-WHITE-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/15 BROWN-WHITE-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/17 GREY-DARKEST-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/17 GREY-DARKEST-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/18 GREY-DARK-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/18 GREY-DARK-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/19 GREY-MEDIUM-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/19 GREY-MEDIUM-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/2 SKIN-DARK-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/2 SKIN-DARK-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/20 GREY-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/20 GREY-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/21 GREY-LIGHT-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/21 GREY-LIGHT-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/22 GREY-LIGHTEST-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/22 GREY-LIGHTEST-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/23 GREY-WHITE-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/23 GREY-WHITE-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/25 RED-DARKEST-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/25 RED-DARKEST-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/26 RED-DARK-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/26 RED-DARK-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/27 RED-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/27 RED-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/28 ORANGE-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/28 ORANGE-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/29 ORANGE-LIGHT-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/29 ORANGE-LIGHT-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/3 SKIN-MEDIUM-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/3 SKIN-MEDIUM-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/30 YELLOW-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/30 YELLOW-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/31 YELLOW-LIGHT-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/31 YELLOW-LIGHT-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/33 GREEN-DARKEST-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/33 GREEN-DARKEST-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/34 GREEN-DARK-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/34 GREEN-DARK-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/35 GREEN-MEDIUM-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/35 GREEN-MEDIUM-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/36 GREEN-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/36 GREEN-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/37 GREEN-LIGHT-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/37 GREEN-LIGHT-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/38 GREEN-LIGHTEST-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/38 GREEN-LIGHTEST-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/39 GREEN-WHITE-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/39 GREEN-WHITE-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/4 SKIN-LPAP-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/4 SKIN-LPAP-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/41 BLUE-DARKEST-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/41 BLUE-DARKEST-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/42 BLUE-DARK-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/42 BLUE-DARK-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/43 BLUE-MEDIUM-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/43 BLUE-MEDIUM-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/44 BLUE-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/44 BLUE-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/45 BLUE-LIGHT-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/45 BLUE-LIGHT-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/46 BLUE-LIGHEST-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/46 BLUE-LIGHEST-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/47 BLUE-WHITE-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/47 BLUE-WHITE-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/49 PINK-DARKEST-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/49 PINK-DARKEST-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/5 SKIN-LIGHT-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/5 SKIN-LIGHT-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/50 PINK-DARK-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/50 PINK-DARK-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/51 PINK-MEDIUM-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/51 PINK-MEDIUM-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/52 PINK-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/52 PINK-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/53 PINK-LIGHT-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/53 PINK-LIGHT-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/57 BLACK-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/57 BLACK-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/58 WHITE-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/58 WHITE-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/6 SKIN-LIGHTEST-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/6 SKIN-LIGHTEST-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/64 GLASS-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/64 GLASS-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/7 SKIN-WHITE-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/7 SKIN-WHITE-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/9 BROWN-DARKEST-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/9 BROWN-DARKEST-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/Emission.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/Emission.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/Emission/59 EMISSION-WHITE-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/Emission/59 EMISSION-WHITE-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/Emission/61 EMISSION-ORANGE-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/Emission/61 EMISSION-ORANGE-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/Emission/62 EMISSION-YELLOW-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/Emission/62 EMISSION-YELLOW-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/Transparent.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/Transparent.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/Transparent/24 TRANSPARENT-GREY-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/Transparent/24 TRANSPARENT-GREY-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/Transparent/48 TRANSPARENT-BLUE-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/Colors/Transparent/48 TRANSPARENT-BLUE-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/atlas-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/atlas-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/atlas-gradient-LPAP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Common/Materials/atlas-gradient-LPAP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Low Poly Animated People/- Animator Controllers/3RD Person.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Low Poly Animated People/- Animator Controllers/3RD Person.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Low Poly Animated People/- Materials/LOW-POLY-COLORS2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Low Poly Animated People/- Materials/LOW-POLY-COLORS2.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Low Poly Animated People/- Materials/Light Rays.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Low Poly Animated People/- Materials/Light Rays.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Low Poly Animated People/- Textures/Environment/birds.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Low Poly Animated People/- Textures/Environment/birds.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Low Poly Animated People/- Textures/Environment/crowd.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Low Poly Animated People/- Textures/Environment/crowd.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Low Poly Animated People/- Textures/Environment/flash.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Low Poly Animated People/- Textures/Environment/flash.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemie/EnemyMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemie/EnemyMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/WeaponScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/WeaponScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/Desktop/GraffityPlatformer/Assets/Scripts/Enemy/MovableEnemy/EnemyMove.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelMovement/LevelMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/WeaponScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Desktop/GraffityPlatformer/Assets/Scripts/Player/PlayerAttack.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemie/EnemyMovement.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/ShieldScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemie/EnemyMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelMovement/LevelMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/WeaponScript.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="270edshgJl4CU8IKsn33AeWbIzZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="442f28e4-f2e7-4568-ad2d-4ff535f258f6" name="Default Changelist" comment="" />
+      <created>1648461576728</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648461576728</updated>
+      <workItem from="1648461606795" duration="3457000" />
+      <workItem from="1648545792081" duration="11571000" />
+      <workItem from="1649020035788" duration="6000" />
+      <workItem from="1649060990505" duration="8461000" />
+    </task>
+    <servers />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
