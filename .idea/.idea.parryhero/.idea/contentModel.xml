@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\lenovo\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\lenovo\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_parryhero.-885437835.00" t="ExcludeRecursive" />
+    <e p="D:\WORK\ParryGame\parryhero" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Assets" t="Include">
+          <e p="Customizable Skybox" t="Include">
+            <e p="Stylized Sky" t="Include">
+              <e p="Shaders" t="Include">
+                <e p="Stylized Sky.shader" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="IgniteCoders" t="Include">
+            <e p="Simple Water Shader" t="Include">
+              <e p="Resources" t="Include">
+                <e p="WaterReflection.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="PolygonFantasyHeroCharacters" t="Include">
+            <e p="Shaders" t="Include">
+              <e p="POLYGON_CustomCharacters.shader" t="Include" />
+            </e>
+          </e>
+          <e p="polyperfect" t="Include">
+            <e p="Common" t="Include">
+              <e p="Common_AnimationControl.cs" t="Include" />
+              <e p="Common_AnimSpeed.cs" t="Include" />
+              <e p="Common_KillSwitch.cs" t="Include" />
+              <e p="Common_PlaySound.cs" t="Include" />
+              <e p="Common_RandomInt.cs" t="Include" />
+              <e p="RandomCharacterPlacer.cs" t="Include" />
+              <e p="Wander Script" t="Include">
+                <e p="AIState.cs" t="Include" />
+                <e p="AIStats.cs" t="Include" />
+                <e p="Common_AudioManager.cs" t="Include" />
+                <e p="Common_SurfaceRotation.cs" t="Include" />
+                <e p="Common_WanderManager.cs" t="Include" />
+                <e p="Common_WanderScript.cs" t="Include" />
+                <e p="Editor" t="Include">
+                  <e p="Common_StatsTable.cs" t="Include" />
+                  <e p="Common_WanderManagerEditor.cs" t="Include" />
+                  <e p="Common_WanderScriptEditor.cs" t="Include" />
+                </e>
+                <e p="IdleState.cs" t="Include" />
+                <e p="MovementState.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Low Poly Animated People" t="Include">
+              <e p="- Materials" t="Include">
+                <e p="Simple Water" t="Include">
+                  <e p="SimpleWater.cs" t="Include" />
+                  <e p="Water.shader" t="Include" />
+                </e>
+              </e>
+              <e p="- Scripts" t="Include">
+                <e p="3RD Person Character Controller" t="Include">
+                  <e p="PlayerController.cs" t="Include" />
+                </e>
+                <e p="AtlasGenerator" t="Include">
+                  <e p="AtlasGenerator.cs" t="Include" />
+                  <e p="Editor" t="Include">
+                    <e p="AtlasEditor.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="Character Viewer" t="Include">
+                  <e p="CharacterManager.cs" t="Include" />
+                  <e p="EditorExtensions.cs" t="Include" />
+                  <e p="Polyperfect_CameraController.cs" t="Include" />
+                </e>
+                <e p="CustomPeople.cs" t="Include" />
+                <e p="IK" t="Include">
+                  <e p="Editor" t="Include">
+                    <e p="PolyIkEditor.cs" t="Include" />
+                  </e>
+                  <e p="HumanBoneOffset.cs" t="Include" />
+                  <e p="PolyIk.cs" t="Include" />
+                </e>
+                <e p="LayoutGameobjectInGrid.cs" t="Include" />
+                <e p="MakeCharacters.cs" t="Include" />
+                <e p="PolyMorpher.cs" t="Include" />
+                <e p="Wander Script" t="Include">
+                  <e p="Editor" t="Include">
+                    <e p="People_WanderScriptEditor.cs" t="Include" />
+                  </e>
+                  <e p="People_AIStats.cs" t="Include" />
+                  <e p="People_AudioManager.cs" t="Include" />
+                  <e p="People_SurfaceRotation.cs" t="Include" />
+                  <e p="People_WanderManager.cs" t="Include" />
+                  <e p="People_WanderScript.cs" t="Include" />
+                </e>
+              </e>
+              <e p="- UI" t="Include">
+                <e p="TextShader.shader" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Epic Toon FX" t="Include">
+          <e p="Prefabs" t="Include">
+            <e p="Combat" t="Include">
+              <e p="Combat FX.txt" t="Include" />
+            </e>
+            <e p="Environment" t="Include">
+              <e p="Environment FX.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="JMO Assets" t="Include">
+          <e p="Cartoon FX" t="Include">
+            <e p="CartoonFX Free.txt" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="CFX3 Multiply Color.shader" t="Include" />
+              <e p="CFXM_MobileParticleAdd_Alpha8.shader" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Plugins" t="Include">
+          <e p="Demigiant" t="Include">
+            <e p="DOTween" t="Include">
+              <e p="Modules" t="Include">
+                <e p="DOTweenModuleAudio.cs" t="Include" />
+                <e p="DOTweenModuleEPOOutline.cs" t="Include" />
+                <e p="DOTweenModulePhysics.cs" t="Include" />
+                <e p="DOTweenModulePhysics2D.cs" t="Include" />
+                <e p="DOTweenModuleSprite.cs" t="Include" />
+                <e p="DOTweenModuleUI.cs" t="Include" />
+                <e p="DOTweenModuleUnityVersion.cs" t="Include" />
+                <e p="DOTweenModuleUtils.cs" t="Include" />
+              </e>
+              <e p="readme.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Enemie" t="Include">
+            <e p="EnemyMovement.cs" t="Include" />
+          </e>
+          <e p="LevelMovement" t="Include">
+            <e p="Clouds.cs" t="Include" />
+            <e p="LevelMovement.cs" t="Include" />
+            <e p="LevelMovementrotation.cs" t="Include" />
+          </e>
+          <e p="Player" t="Include">
+            <e p="GetReward.cs" t="Include" />
+            <e p="KickIt.cs" t="Include" />
+            <e p="Player.cs" t="Include" />
+            <e p="ShieldScript.cs" t="Include" />
+            <e p="UIHelper.cs" t="Include" />
+            <e p="WeaponScript.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="parryhero.sln" t="IncludeFlat" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

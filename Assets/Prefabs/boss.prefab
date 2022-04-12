@@ -17324,11 +17324,15 @@ MonoBehaviour:
   enemyDamage: 1
   player: {fileID: 0}
   canAttack: 0
+  isArmed: 0
+  isBoss: 1
   shieldScript: {fileID: 0}
   weaponScript: {fileID: 0}
   enemy: {fileID: 1786796966749690332}
   attackButton: {fileID: 0}
   hitText: {fileID: 0}
+  parryText: {fileID: 0}
+  hitTextAnim: {fileID: 0}
   nextEnemy: {fileID: 0}
   isLastEnemy: 0
   levelMovement: {fileID: 0}

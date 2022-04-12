@@ -15501,6 +15501,7 @@ MonoBehaviour:
   enemy: {fileID: 938539693093398862}
   attackButton: {fileID: 0}
   hitText: {fileID: 0}
+  hitTextAnim: {fileID: 0}
   nextEnemy: {fileID: 0}
   isLastEnemy: 0
   levelMovement: {fileID: 0}
@@ -15558,7 +15559,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2ef624de4a03f4a4091a0901ae3068ce, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.573
   m_Pitch: 1
   Loop: 0
   Mute: 0
