@@ -40,11 +40,18 @@ public class EnemyMovement : MonoBehaviour
    [Header("Effect")]
    [SerializeField] public GameObject stunEffect;
    [SerializeField] public GameObject deadEffect;
+   [SerializeField] private GameObject slowMotionEffect;
    [SerializeField] public AudioSource hitSource;
    [SerializeField] public AudioClip hitClip;
    [SerializeField] public AudioClip walkClip;
    [SerializeField] public AudioClip punchHitClip;
    [SerializeField] public AudioClip givenHitClip;
+
+   [Header("0 - 1")]
+   [SerializeField] private float timeScale;
+
+   [SerializeField] private GameObject backgroundMusic;
+   [SerializeField] private float backgroundMusicVolumeDown;
 
 
    private void Awake()
@@ -54,9 +61,14 @@ public class EnemyMovement : MonoBehaviour
 
    private void Start()
    {
+      backgroundMusic = GameObject.FindWithTag("BackGroundMusic");
+      backgroundMusicVolumeDown = 0.2f;
+      
       enemy.stoppingDistance = 2f;
       speed = 3f;
       attackDistance = 3f;
+      
+      slowMotionEffect.SetActive(false);
       
       if (isArmed)
       {
@@ -84,7 +96,6 @@ public class EnemyMovement : MonoBehaviour
             enemyAnimator.SetBool("Dead", true);
             hitTextAnim.EndSecondState();
             hitText.SetActive(false);
-            SlowMotionEnd();
             shieldScript.canAttack = false;
          }
          else
@@ -92,7 +103,6 @@ public class EnemyMovement : MonoBehaviour
             enemyAnimator.SetBool("SwordDead", true);
             hitTextAnim.EndSecondState();
             hitText.SetActive(false);
-            SlowMotionEnd();
             shieldScript.canAttack = false;
          }
       }
@@ -188,8 +198,8 @@ public class EnemyMovement : MonoBehaviour
             hitText.SetActive(true);
             hitTextAnim.EndParrySecondState();
             parryText.SetActive(false);
-            SlowMotionStart();
-            Invoke("SlowMotionEnd", 0.25f);
+            slowMotionEffect.SetActive(false);
+            SlowMotionEnd();
          }
          else
          {
@@ -200,7 +210,8 @@ public class EnemyMovement : MonoBehaviour
             hitSource.PlayOneShot(givenHitClip);
             parryText.SetActive(false);
             hitTextAnim.EndParrySecondState();
-         
+            slowMotionEffect.SetActive(false);
+            SlowMotionEnd();
          }
       }
       else
@@ -216,8 +227,8 @@ public class EnemyMovement : MonoBehaviour
             hitText.SetActive(true);
             hitTextAnim.EndParrySecondState();
             parryText.SetActive(false);
-            SlowMotionStart();
-            Invoke("SlowMotionEnd", 0.25f);
+            slowMotionEffect.SetActive(false);
+            SlowMotionEnd();
          }
          else
          {
@@ -228,6 +239,8 @@ public class EnemyMovement : MonoBehaviour
             hitSource.PlayOneShot(givenHitClip);
             hitTextAnim.EndParrySecondState();
             parryText.SetActive(false);
+            slowMotionEffect.SetActive(false);
+            SlowMotionEnd();
          }
       }
       
@@ -292,12 +305,16 @@ public class EnemyMovement : MonoBehaviour
 
    public void SlowMotionStart()
    {
-      Time.timeScale = 0.15f;
+      Time.timeScale = timeScale;
+      backgroundMusic.GetComponent<AudioSource>().volume -= backgroundMusicVolumeDown;
+      slowMotionEffect.SetActive(true);
    }
 
    public void SlowMotionEnd()
    {
       Time.timeScale = 1f;
+      backgroundMusic.GetComponent<AudioSource>().volume += backgroundMusicVolumeDown;
+      slowMotionEffect.SetActive(false);
    }
    
    

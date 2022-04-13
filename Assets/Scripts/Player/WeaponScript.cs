@@ -105,7 +105,7 @@ public class WeaponScript : MonoBehaviour
     
     public void SlowMotionStart()
     {
-        Time.timeScale = 0.1f;
+        Time.timeScale = 0.2f;
     }
 
     public void SlowMotionEnd()

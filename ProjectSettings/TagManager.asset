@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - PlayerObject
   - AttackButton
+  - BackGroundMusic
   layers:
   - Default
   - TransparentFX

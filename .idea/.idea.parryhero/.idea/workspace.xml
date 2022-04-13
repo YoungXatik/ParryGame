@@ -3,23 +3,32 @@
   <component name="ChangeListManager">
     <list default="true" id="408c2e2e-8bf1-406c-a42c-b0470257489b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.parryhero/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.parryhero/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.parryhero/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.parryhero/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.parryhero/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.parryhero/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Anims/Player/Main Camera.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Player/Main Camera.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Enemies/Sword/SwordSlash.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Enemies/Sword/SwordSlash.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Enemies/Viking/FlyDie.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Enemies/Viking/FlyDie.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Enemies/Viking/Punch.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Enemies/Viking/Punch.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Enemies/Viking/Punch1 1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Enemies/Viking/Punch1 1.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Enemies/Viking/Punch2 1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Enemies/Viking/Punch2 1.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Player/BlockShake.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Player/BlockShake.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Player/UIBlock.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Player/UIBlock.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Player/UiAttack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Player/UiAttack.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Anims/Weapon/Attack_1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Weapon/Attack_1.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Anims/Weapon/Attack_2.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Weapon/Attack_2.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Anims/Weapon/Attack_3.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Weapon/Attack_3.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Anims/Weapon/Shield_1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Weapon/Shield_1.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Low Poly Animated People/- Animator Controllers/3RD Person.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Low Poly Animated People/- Animator Controllers/3RD Person.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Combat/Magic/Buff/MagicBuffBlue.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Combat/Magic/Buff/MagicBuffBlue.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/boss.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/boss.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/man_viking 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/man_viking 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/man_viking.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/man_viking.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/man_viking_armed.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/man_viking_armed.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemie/EnemyMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemie/EnemyMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/ShieldScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/ShieldScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/UIHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/UIHelper.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/WeaponScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/WeaponScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/uGUITools.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/uGUITools.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,15 +39,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/UIHelperForAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/UIHelper.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/KickIt.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/UIHelper.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/ShieldScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/UIHelper.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/UIHelperForAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/ShieldScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemie/EnemyMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/WeaponScript.cs" />
       </list>
@@ -83,7 +94,9 @@
       <option name="presentableId" value="Default" />
       <updated>1649770050300</updated>
       <workItem from="1649770388767" duration="10366000" />
-      <workItem from="1649846731391" duration="3541000" />
+      <workItem from="1649846731391" duration="3903000" />
+      <workItem from="1649855080295" duration="1550000" />
+      <workItem from="1649861677536" duration="7687000" />
     </task>
     <servers />
   </component>

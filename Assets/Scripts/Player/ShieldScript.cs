@@ -8,15 +8,21 @@ public class ShieldScript : MonoBehaviour
     [SerializeField] public bool Block;
     [SerializeField] public bool canAttack;
     [SerializeField] public Animator cameraAnim;
+    [SerializeField] private GameObject backgroundMusic;
+    [SerializeField] private float backgroundMusicVolumeDown;
      
     private void Start()
     {
         shieldAnim = GetComponent<Animator>();
+        backgroundMusic = GameObject.FindWithTag("BackGroundMusic");
+        backgroundMusicVolumeDown = 0.2f;
     }
 
     public void Defend()
     {
         shieldAnim.SetBool("Block",true);
+        Time.timeScale = 1f;
+        backgroundMusic.GetComponent<AudioSource>().volume += backgroundMusicVolumeDown;
     }
     
     public void ShieldEvent()

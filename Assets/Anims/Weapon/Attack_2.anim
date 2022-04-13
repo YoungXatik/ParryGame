@@ -529,7 +529,7 @@ AnimationClip:
   m_HasGenericRootTransform: 1
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0
+  - time: 0.016666668
     functionName: SlowMotionStart
     data: 
     objectReferenceParameter: {fileID: 0}
@@ -550,22 +550,15 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.23333333
+  - time: 0.21666667
     functionName: SlowMotionEnd
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.38333333
+  - time: 0.36666667
     functionName: SlowMotionStart
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 0.46666667
-    functionName: PlayHitEffect
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -578,7 +571,21 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.48333332
+  - time: 0.46666667
+    functionName: SlowMotionEnd
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.46666667
+    functionName: PlayHitEffect
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.5
     functionName: SlowMotionEnd
     data: 
     objectReferenceParameter: {fileID: 0}
@@ -587,6 +594,13 @@ AnimationClip:
     messageOptions: 0
   - time: 0.9166667
     functionName: AttackEvent
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.9166667
+    functionName: SlowMotionEnd
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

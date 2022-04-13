@@ -153,6 +153,7 @@
             <e p="Player.cs" t="Include" />
             <e p="ShieldScript.cs" t="Include" />
             <e p="UIHelper.cs" t="Include" />
+            <e p="UIHelperForAttack.cs" t="Include" />
             <e p="WeaponScript.cs" t="Include" />
           </e>
           <e p="uGUITools.cs" t="Include" />
