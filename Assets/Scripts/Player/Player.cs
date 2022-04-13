@@ -12,12 +12,12 @@ public class Player : MonoBehaviour
     [SerializeField] public AudioSource source;
     [SerializeField] public AudioClip walkClip;
 
-    [SerializeField] public GameObject blockEffect;
+    [SerializeField] public ParticleSystem blockEffect;
 
     private void Start()
     {
         source = GetComponent<AudioSource>();
-        blockEffect.SetActive(false);
+        blockEffect.gameObject.SetActive(true);
     }
 
     public void TakeDamage(int damage)

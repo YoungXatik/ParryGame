@@ -6,6 +6,7 @@ public class ShieldScript : MonoBehaviour
 {
     [SerializeField] public Animator shieldAnim;
     [SerializeField] public bool Block;
+    [SerializeField] public bool canAttack;
     [SerializeField] public Animator cameraAnim;
      
     private void Start()
@@ -38,4 +39,15 @@ public class ShieldScript : MonoBehaviour
     {
         cameraAnim.SetBool("BlockShake",false);
     }
+
+    public void CanAttackFalse()
+    {
+        canAttack = false;
+    }
+
+    public void CanAttackTrue()
+    {
+        canAttack = true;
+    }
+    
 }

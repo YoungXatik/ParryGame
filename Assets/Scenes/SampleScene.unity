@@ -3046,11 +3046,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 457898, guid: 0e1226fe528fbb343bb7f9554419438d, type: 3}
   m_PrefabInstance: {fileID: 321621602}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &132106868 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3231582624275775011, guid: dbe84658019d1584fad3c4a30500485f, type: 3}
-  m_PrefabInstance: {fileID: 1602435203968297562}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &136733267
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18019,6 +18014,11 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 64000013260671000, guid: 9427ec3486e894940ae4503059700080, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9427ec3486e894940ae4503059700080, type: 3}
+--- !u!198 &1517615918 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 320489793263052958, guid: dbe84658019d1584fad3c4a30500485f, type: 3}
+  m_PrefabInstance: {fileID: 1602435203968297562}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1530497219
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26288,6 +26288,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 832919207}
     - target: {fileID: 1786796967080363704, guid: 27a70359fabe22440bce70f1ccf2d392, type: 3}
+      propertyPath: enemyHealth
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1786796967080363704, guid: 27a70359fabe22440bce70f1ccf2d392, type: 3}
       propertyPath: isLastEnemy
       value: 1
       objectReference: {fileID: 0}
@@ -29040,7 +29044,7 @@ PrefabInstance:
     - target: {fileID: 5115741852231038253, guid: dbe84658019d1584fad3c4a30500485f, type: 3}
       propertyPath: blockEffect
       value: 
-      objectReference: {fileID: 132106868}
+      objectReference: {fileID: 1517615918}
     - target: {fileID: 5900123344597954117, guid: dbe84658019d1584fad3c4a30500485f, type: 3}
       propertyPath: m_IsActive
       value: 1

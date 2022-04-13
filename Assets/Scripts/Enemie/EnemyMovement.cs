@@ -85,6 +85,7 @@ public class EnemyMovement : MonoBehaviour
             hitTextAnim.EndSecondState();
             hitText.SetActive(false);
             SlowMotionEnd();
+            shieldScript.canAttack = false;
          }
          else
          {
@@ -92,6 +93,7 @@ public class EnemyMovement : MonoBehaviour
             hitTextAnim.EndSecondState();
             hitText.SetActive(false);
             SlowMotionEnd();
+            shieldScript.canAttack = false;
          }
       }
 
@@ -179,13 +181,14 @@ public class EnemyMovement : MonoBehaviour
          if (shieldScript.Block)
          {
             enemyAnimator.SetBool("GetHit",true);
-            player.blockEffect.SetActive(true);
+            player.blockEffect.gameObject.SetActive(true);
+            player.blockEffect.Play();
             hitSource.PlayOneShot(hitClip);
             stunned = true;
             hitText.SetActive(true);
             hitTextAnim.EndParrySecondState();
-            SlowMotionStart();
             parryText.SetActive(false);
+            SlowMotionStart();
             Invoke("SlowMotionEnd", 0.25f);
          }
          else
@@ -205,14 +208,16 @@ public class EnemyMovement : MonoBehaviour
          if (shieldScript.Block)
          {
             enemyAnimator.SetBool("SwordGetHit",true);
-            player.blockEffect.SetActive(true);
+            player.blockEffect.gameObject.SetActive(true);
+            player.blockEffect.Play();
+            player.blockEffect.Play();
             hitSource.PlayOneShot(hitClip);
             stunned = true;
             hitText.SetActive(true);
             hitTextAnim.EndParrySecondState();
+            parryText.SetActive(false);
             SlowMotionStart();
             Invoke("SlowMotionEnd", 0.25f);
-            parryText.SetActive(false);
          }
          else
          {
@@ -259,6 +264,8 @@ public class EnemyMovement : MonoBehaviour
       {
          Destroy(parryText);
       }
+
+      
    }
 
    public void PlayDeadEffect()
@@ -278,24 +285,20 @@ public class EnemyMovement : MonoBehaviour
 
    public void StunnedIdlePlay()
    {
-      Time.timeScale = 1f;
       enemyAnimator.SetBool("Stunned",true);
       stunned = true;
-      player.blockEffect.SetActive(false);
+      player.blockEffect.gameObject.SetActive(false);
    }
 
    public void SlowMotionStart()
    {
-      if (shieldScript.Block)
-      {
-         Time.timeScale = 0.3f;
-         Invoke("SlowMotionEnd",1f);
-      }
+      Time.timeScale = 0.15f;
    }
 
    public void SlowMotionEnd()
    {
       Time.timeScale = 1f;
    }
+   
    
 }

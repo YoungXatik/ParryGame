@@ -9,6 +9,7 @@ public class WeaponScript : MonoBehaviour
     [SerializeField] public Animator cameraAnim;
     [SerializeField] public int damage;
     [SerializeField] private bool attacked;
+    [SerializeField] public ShieldScript shieldScript;
 
     [Header("Effects")]
     [SerializeField] public GameObject attackEffect;
@@ -24,32 +25,40 @@ public class WeaponScript : MonoBehaviour
         weaponAnim = GetComponent<Animator>();
         hitEffect.SetActive(false);
         hitSource = GetComponent<AudioSource>();
+        shieldScript = FindObjectOfType<ShieldScript>();
     }
 
 
 
     public void Attack()
     {
-        Random rand = new Random();
-        int numberOfPunch = rand.Next(1, 4);
+        if (shieldScript.canAttack)
+        {
+            Random rand = new Random();
+            int numberOfPunch = rand.Next(1, 4);
 
-        if (numberOfPunch == 1)
-        {
-            weaponAnim.SetBool("Attack", true);
-            attacked = true;
-            hitSource.PlayOneShot(hitClip);
+            if (numberOfPunch == 1)
+            {
+                weaponAnim.SetBool("Attack", true);
+                attacked = true;
+                hitSource.PlayOneShot(hitClip);
+            }
+            else if (numberOfPunch == 2)
+            {
+                weaponAnim.SetBool("Attack1", true);
+                attacked = true;
+                hitSource.PlayOneShot(hitClip);
+            }
+            else if (numberOfPunch == 3)
+            {
+                weaponAnim.SetBool("Attack2", true);
+                attacked = true;
+                hitSource.PlayOneShot(hitClip);
+            }
         }
-        else if (numberOfPunch == 2)
+        else
         {
-            weaponAnim.SetBool("Attack1", true);
-            attacked = true;
-            hitSource.PlayOneShot(hitClip);
-        }
-        else if (numberOfPunch == 3)
-        {
-            weaponAnim.SetBool("Attack2", true);
-            attacked = true;
-            hitSource.PlayOneShot(hitClip);
+            return;
         }
     }
 
@@ -61,7 +70,6 @@ public class WeaponScript : MonoBehaviour
         attacked = false;
         hitEffect.SetActive(false);
         attackEffect.SetActive(false);
-        Time.timeScale = 1f;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -97,7 +105,7 @@ public class WeaponScript : MonoBehaviour
     
     public void SlowMotionStart()
     {
-        Time.timeScale = 0.2f;
+        Time.timeScale = 0.1f;
     }
 
     public void SlowMotionEnd()
