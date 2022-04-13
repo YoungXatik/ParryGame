@@ -23,7 +23,6 @@ public class Player : MonoBehaviour
     public void TakeDamage(int damage)
     {
         health -= damage;
-        
     }
 
     private void Update()
@@ -32,8 +31,8 @@ public class Player : MonoBehaviour
         {
             shield.SetActive(false);
             weapon.SetActive(false);
-            deadAnimator.SetBool("Dead",true);
-            Invoke("RestartLevel",2f);
+            deadAnimator.SetBool("Dead", true);
+            Invoke("RestartLevel", 2f);
         }
     }
 
@@ -44,12 +43,12 @@ public class Player : MonoBehaviour
 
     public void CameraBack()
     {
-        deadAnimator.SetBool("GetHit",false);
+        deadAnimator.SetBool("GetHit", false);
     }
 
     public void StartWalking()
     {
-        deadAnimator.SetBool("Walk",true);
+        deadAnimator.SetBool("Walk", true);
     }
 
     public void PlayWalkSound()
@@ -59,6 +58,6 @@ public class Player : MonoBehaviour
 
     public void AttackShakeEnd()
     {
-        deadAnimator.SetBool("AttackShake",false);
+        deadAnimator.SetBool("AttackShake", false);
     }
 }
