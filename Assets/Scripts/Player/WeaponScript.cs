@@ -35,7 +35,7 @@ public class WeaponScript : MonoBehaviour
         if (shieldScript.canAttack)
         {
             Random rand = new Random();
-            int numberOfPunch = rand.Next(1, 4);
+            int numberOfPunch = rand.Next(1, 5);
 
             if (numberOfPunch == 1)
             {
@@ -55,6 +55,12 @@ public class WeaponScript : MonoBehaviour
                 attacked = true;
                 hitSource.PlayOneShot(hitClip);
             }
+            else if (numberOfPunch == 4)
+            {
+                weaponAnim.SetBool("Attack3", true);
+                attacked = true;
+                hitSource.PlayOneShot(hitClip);
+            }
         }
         else
         {
@@ -67,6 +73,7 @@ public class WeaponScript : MonoBehaviour
         weaponAnim.SetBool("Attack", false);
         weaponAnim.SetBool("Attack1", false);
         weaponAnim.SetBool("Attack2", false);
+        weaponAnim.SetBool("Attack3", false);
         attacked = false;
         hitEffect.SetActive(false);
         attackEffect.SetActive(false);
@@ -85,6 +92,7 @@ public class WeaponScript : MonoBehaviour
                 weaponAnim.SetBool("Attack", false);
                 weaponAnim.SetBool("Attack1", false);
                 weaponAnim.SetBool("Attack2", false);
+                weaponAnim.SetBool("Attack3", false);
             }
         }
     }
@@ -116,5 +124,10 @@ public class WeaponScript : MonoBehaviour
     public void CameraAttackShake()
     {
         cameraAnim.SetBool("AttackShake", true);
+    }
+
+    public void HugeCameraAttackShake()
+    {
+        cameraAnim.SetBool("HugeAttackShake",true);
     }
 }

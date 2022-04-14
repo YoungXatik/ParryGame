@@ -60,4 +60,10 @@ public class Player : MonoBehaviour
     {
         deadAnimator.SetBool("AttackShake", false);
     }
+
+    public void HugeAttackShakeEnd()
+    {
+        deadAnimator.SetBool("HugeAttackShake", false);
+        gameObject.transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0));
+    }
 }

@@ -3,32 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="408c2e2e-8bf1-406c-a42c-b0470257489b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.parryhero/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.parryhero/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.parryhero/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.parryhero/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.parryhero/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.parryhero/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Anims/Enemies/Sword/SwordSlash.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Enemies/Sword/SwordSlash.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Anims/Enemies/Viking/FlyDie.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Enemies/Viking/FlyDie.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Anims/Enemies/Viking/Punch.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Enemies/Viking/Punch.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Anims/Enemies/Viking/Punch1 1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Enemies/Viking/Punch1 1.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Anims/Enemies/Viking/Punch2 1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Enemies/Viking/Punch2 1.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Anims/Player/BlockShake.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Player/BlockShake.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Anims/Player/UIBlock.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Player/UIBlock.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Anims/Player/UiAttack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Player/UiAttack.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Anims/Weapon/Attack_1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Weapon/Attack_1.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Anims/Weapon/Attack_2.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Weapon/Attack_2.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Anims/Weapon/Attack_3.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Weapon/Attack_3.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Anims/Weapon/Shield_1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Weapon/Shield_1.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Combat/Magic/Buff/MagicBuffBlue.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Combat/Magic/Buff/MagicBuffBlue.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/boss.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/boss.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/man_viking 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/man_viking 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/man_viking.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/man_viking.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/man_viking_armed.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/man_viking_armed.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemie/EnemyMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemie/EnemyMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/ShieldScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/ShieldScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/UIHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/UIHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/WeaponScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/WeaponScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,12 +26,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/KickIt.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/UIHelper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/UIHelperForAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/ShieldScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemie/EnemyMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/WeaponScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemie/EnemyMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
       </list>
     </option>
   </component>
@@ -97,6 +77,7 @@
       <workItem from="1649846731391" duration="3903000" />
       <workItem from="1649855080295" duration="1550000" />
       <workItem from="1649861677536" duration="7687000" />
+      <workItem from="1649974444209" duration="3164000" />
     </task>
     <servers />
   </component>

@@ -92326,15 +92326,15 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 1.8333334
-    functionName: PlayDeadEffect
+  - time: 1.6333333
+    functionName: Dead
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 2.6666667
-    functionName: Dead
+  - time: 1.8333334
+    functionName: PlayDeadEffect
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

@@ -277,9 +277,8 @@ public class EnemyMovement : MonoBehaviour
       {
          Destroy(parryText);
       }
-
-      
    }
+   
 
    public void PlayDeadEffect()
    {
