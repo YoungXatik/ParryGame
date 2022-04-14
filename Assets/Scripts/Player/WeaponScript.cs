@@ -18,7 +18,7 @@ public class WeaponScript : MonoBehaviour
     [SerializeField] public AudioSource hitSource;
     [SerializeField] public AudioClip hitClip;
     [SerializeField] public AudioClip attackClip;
-    
+
 
     private void Start()
     {
@@ -45,7 +45,7 @@ public class WeaponScript : MonoBehaviour
             }
             else if (numberOfPunch == 2)
             {
-                weaponAnim.SetBool("Attack1", true);
+                weaponAnim.SetBool("Attack", true);
                 attacked = true;
                 hitSource.PlayOneShot(hitClip);
             }
@@ -64,9 +64,9 @@ public class WeaponScript : MonoBehaviour
 
     public void AttackEvent()
     {
-        weaponAnim.SetBool("Attack",false);
-        weaponAnim.SetBool("Attack1",false);
-        weaponAnim.SetBool("Attack2",false);
+        weaponAnim.SetBool("Attack", false);
+        weaponAnim.SetBool("Attack1", false);
+        weaponAnim.SetBool("Attack2", false);
         attacked = false;
         hitEffect.SetActive(false);
         attackEffect.SetActive(false);
@@ -84,7 +84,7 @@ public class WeaponScript : MonoBehaviour
             {
                 weaponAnim.SetBool("Attack", false);
                 weaponAnim.SetBool("Attack1", false);
-                weaponAnim.SetBool("Attack2",false);
+                weaponAnim.SetBool("Attack2", false);
             }
         }
     }
@@ -102,7 +102,7 @@ public class WeaponScript : MonoBehaviour
         hitEffect.SetActive(false);
         attackEffect.SetActive(false);
     }
-    
+
     public void SlowMotionStart()
     {
         Time.timeScale = 0.2f;
@@ -115,6 +115,6 @@ public class WeaponScript : MonoBehaviour
 
     public void CameraAttackShake()
     {
-        cameraAnim.SetBool("AttackShake",true);
+        cameraAnim.SetBool("AttackShake", true);
     }
 }

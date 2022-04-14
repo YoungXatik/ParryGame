@@ -10,7 +10,7 @@ public class ShieldScript : MonoBehaviour
     [SerializeField] public Animator cameraAnim;
     [SerializeField] private GameObject backgroundMusic;
     [SerializeField] private float backgroundMusicVolumeDown;
-     
+
     private void Start()
     {
         shieldAnim = GetComponent<Animator>();
@@ -20,14 +20,14 @@ public class ShieldScript : MonoBehaviour
 
     public void Defend()
     {
-        shieldAnim.SetBool("Block",true);
-        Time.timeScale = 1f;
+        shieldAnim.SetBool("Block", true);
+        // Time.timeScale = 1f;
         backgroundMusic.GetComponent<AudioSource>().volume += backgroundMusicVolumeDown;
     }
-    
+
     public void ShieldEvent()
     {
-        shieldAnim.SetBool("Block",false);
+        shieldAnim.SetBool("Block", false);
         Block = false;
     }
 
@@ -35,15 +35,15 @@ public class ShieldScript : MonoBehaviour
     {
         Block = true;
     }
-    
+
     public void CameraBlockShakeStart()
     {
-        cameraAnim.SetBool("BlockShake",true);
+        cameraAnim.SetBool("BlockShake", true);
     }
-    
+
     public void CameraBlockShakeEnd()
     {
-        cameraAnim.SetBool("BlockShake",false);
+        cameraAnim.SetBool("BlockShake", false);
     }
 
     public void CanAttackFalse()
@@ -55,5 +55,5 @@ public class ShieldScript : MonoBehaviour
     {
         canAttack = true;
     }
-    
+
 }
