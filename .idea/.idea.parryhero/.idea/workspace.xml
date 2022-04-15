@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="408c2e2e-8bf1-406c-a42c-b0470257489b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.parryhero/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.parryhero/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.parryhero/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.parryhero/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.parryhero/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.parryhero/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemie/EnemyMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemie/EnemyMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Decorations/RewardChest/Open.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Decorations/RewardChest/Open.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Decorations/RewardChest/chest.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Decorations/RewardChest/chest.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Weapon/Attack_4.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Weapon/Attack_4.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Interactive/Loot/ItemSkewedGlow/ItemSkewedGlowYellow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Interactive/Loot/ItemSkewedGlow/ItemSkewedGlowYellow.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Interactive/Money/Coins/GoldCoinShower.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Interactive/Money/Coins/GoldCoinShower.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/GetReward.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/GetReward.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/WeaponScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/WeaponScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/polyperfect/Low Poly Ultimate Pack/- Materials/atlas-LPUP.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/polyperfect/Low Poly Ultimate Pack/- Materials/atlas-LPUP.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +37,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/WeaponScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemie/EnemyMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/GetReward.cs" />
       </list>
     </option>
   </component>
@@ -78,6 +84,8 @@
       <workItem from="1649855080295" duration="1550000" />
       <workItem from="1649861677536" duration="7687000" />
       <workItem from="1649974444209" duration="3164000" />
+      <workItem from="1650021666542" duration="1403000" />
+      <workItem from="1650034580025" duration="2131000" />
     </task>
     <servers />
   </component>

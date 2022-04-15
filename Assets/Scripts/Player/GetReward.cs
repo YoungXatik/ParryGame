@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GetReward : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class GetReward : MonoBehaviour
     public AudioSource rewardSource;
     public AudioClip openClip;
     public AudioClip rewardClip;
+    public GameObject nextLevelAnim;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -33,5 +35,17 @@ public class GetReward : MonoBehaviour
     {
         rewardEffect.SetActive(true);
         rewardSource.PlayOneShot(rewardClip);
+        
+    }
+
+    public void NextLevelAnimStart()
+    {
+        nextLevelAnim.SetActive(true);
+        chestAnim.SetBool("LoadLevel",true);
+    }
+
+    public void LoadNextLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

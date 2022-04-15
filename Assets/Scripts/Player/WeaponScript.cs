@@ -45,7 +45,7 @@ public class WeaponScript : MonoBehaviour
             }
             else if (numberOfPunch == 2)
             {
-                weaponAnim.SetBool("Attack", true);
+                weaponAnim.SetBool("Attack1", true);
                 attacked = true;
                 hitSource.PlayOneShot(hitClip);
             }
