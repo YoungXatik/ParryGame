@@ -111,8 +111,6 @@ public class EnemyMovement : MonoBehaviour
       {
          enemyAnimator.SetBool("Walk",true);
          enemy.SetDestination(playerTarget.position);
-         //transform.DOMove(playerTarget.position, speed);
-         //Invoke("EnemyPunch",speed - 1);
          if (Vector3.Distance(transform.position, playerTarget.position) < attackDistance)
          {
             canAttack = true;
@@ -121,7 +119,7 @@ public class EnemyMovement : MonoBehaviour
 
       if (canAttack)
       {
-         Invoke("StartCombatPose",0.1f);
+         Invoke("StartCombatPose",0.2f);
       }
       else
       {

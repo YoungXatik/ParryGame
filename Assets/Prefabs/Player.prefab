@@ -5919,6 +5919,9 @@ MonoBehaviour:
   hitSource: {fileID: 6612754750759338198}
   hitClip: {fileID: 8300000, guid: d589999c12cafc24da698fae8672963d, type: 3}
   attackClip: {fileID: 8300000, guid: 0f80e4192d21cfc479d8b6e67cc8b6fa, type: 3}
+  mainCamera: {fileID: 1602435203466941600}
+  startFOV: 0
+  cameraFOV: 0
 --- !u!65 &1602435203414501883
 BoxCollider:
   m_ObjectHideFlags: 0

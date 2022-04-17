@@ -1,7 +1,9 @@
 
 using System;
+using System.Collections;
 using UnityEngine;
 using Random = System.Random;
+using DG.Tweening;
 
 public class WeaponScript : MonoBehaviour
 {
@@ -19,6 +21,12 @@ public class WeaponScript : MonoBehaviour
     [SerializeField] public AudioClip hitClip;
     [SerializeField] public AudioClip attackClip;
 
+    [Header("Camera")] 
+    [SerializeField] private Camera mainCamera;
+
+    [SerializeField] private float startFOV;
+    [SerializeField] private float cameraFOV;
+
 
     private void Start()
     {
@@ -26,6 +34,7 @@ public class WeaponScript : MonoBehaviour
         hitEffect.SetActive(false);
         hitSource = GetComponent<AudioSource>();
         shieldScript = FindObjectOfType<ShieldScript>();
+        startFOV = mainCamera.fieldOfView;
     }
 
 
@@ -34,8 +43,9 @@ public class WeaponScript : MonoBehaviour
     {
         if (shieldScript.canAttack)
         {
+
             Random rand = new Random();
-            int numberOfPunch = rand.Next(1, 5);
+            int numberOfPunch = rand.Next(1, 2);
 
             if (numberOfPunch == 1)
             {
@@ -66,6 +76,26 @@ public class WeaponScript : MonoBehaviour
         {
             return;
         }
+    }
+
+    public void StartFOV()
+    {
+        cameraAnim.SetBool("FOVStart",true);
+    }
+
+    public void EndStartFOV()
+    {
+        cameraAnim.SetBool("FOVStart",false);
+    }
+
+    public void StartFOVBack()
+    {
+        cameraAnim.SetBool("FOVBack",true);
+    }
+
+    public void EndFOVBack()
+    {
+        cameraAnim.SetBool("FOVBack",false);
     }
 
     public void AttackEvent()
