@@ -3,15 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="408c2e2e-8bf1-406c-a42c-b0470257489b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.parryhero/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.parryhero/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Decorations/RewardChest/NextLevelAnim.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Decorations/RewardChest/NextLevelAnim.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Enemies/Sword/SwordSlash.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Enemies/Sword/SwordSlash.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Enemies/Viking/FlyDie.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Enemies/Viking/FlyDie.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Anims/Player/AttackShake.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Player/AttackShake.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Anims/Player/Main Camera.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Player/Main Camera.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Anims/Weapon/Attack_1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Weapon/Attack_1.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Weapon/Attack_3.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Weapon/Attack_3.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Low Poly Animated People/- Animator Controllers/3RD Person.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Low Poly Animated People/- Animator Controllers/3RD Person.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Interactive/Money/Coins/GoldCoinShower.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Interactive/Money/Coins/GoldCoinShower.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/chest.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/chest.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/man_viking 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/man_viking 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/man_viking_armed.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/man_viking_armed.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_0.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_0.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemie/EnemyMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemie/EnemyMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/WeaponScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/WeaponScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Japan_T/katana.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/polyperfect/Low Poly Ultimate Pack/T/- Prefabs_T/Japan_T/katana.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +42,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/UIHelper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/UIHelperForAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/ShieldScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/GetReward.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/WeaponScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemie/EnemyMovement.cs" />
       </list>
@@ -85,6 +95,10 @@
       <workItem from="1650021666542" duration="1403000" />
       <workItem from="1650034580025" duration="2131000" />
       <workItem from="1650196782310" duration="6012000" />
+      <workItem from="1650204674857" duration="1805000" />
+      <workItem from="1650212386719" duration="3563000" />
+      <workItem from="1650247968164" duration="2854000" />
+      <workItem from="1650279735203" duration="7043000" />
     </task>
     <servers />
   </component>

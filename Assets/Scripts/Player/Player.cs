@@ -60,6 +60,11 @@ public class Player : MonoBehaviour
     {
         deadAnimator.SetBool("AttackShake", false);
     }
+    
+    public void AttackShake2End()
+    {
+        deadAnimator.SetBool("AttackShake2", false);
+    }
 
     public void HugeAttackShakeEnd()
     {

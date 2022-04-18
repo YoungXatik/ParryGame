@@ -15522,7 +15522,7 @@ MonoBehaviour:
   speed: 4
   enemyAnimator: {fileID: 0}
   seeDistance: 13
-  attackDistance: 1
+  attackDistance: 1.7
   stunned: 0
   enemyHealth: 1
   enemyDamage: 1
@@ -15544,7 +15544,7 @@ MonoBehaviour:
   deadEffect: {fileID: 8064045316248964682}
   slowMotionEffect: {fileID: 3355117207112877974}
   hitSource: {fileID: 2195259412742554101}
-  hitClip: {fileID: 8300000, guid: df0c557d07e14324b82b85c2f98b230d, type: 3}
+  hitClip: {fileID: 8300000, guid: b38a62cc6ea4f944cbe39ccb0ca28955, type: 3}
   walkClip: {fileID: 8300000, guid: 8e85878f35927d240ac9a855270ae38b, type: 3}
   punchHitClip: {fileID: 8300000, guid: 41810743aa18999448ba16f39a101a27, type: 3}
   givenHitClip: {fileID: 8300000, guid: fdc96cf4ec0b25745ba2db21befa104d, type: 3}
@@ -15578,7 +15578,7 @@ NavMeshAgent:
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
-  m_StoppingDistance: 2
+  m_StoppingDistance: 3
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1

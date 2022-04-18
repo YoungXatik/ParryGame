@@ -5910,7 +5910,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weaponAnim: {fileID: 0}
-  cameraAnim: {fileID: 0}
+  cameraAnim: {fileID: 1602435203466941601}
   damage: 1
   attacked: 0
   shieldScript: {fileID: 0}
@@ -5933,8 +5933,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.7150009, y: 2.0409555, z: 0.47234458}
-  m_Center: {x: -0.000022053719, y: 0.5713606, z: 0.16202477}
+  m_Size: {x: 0.33171722, y: 1.2163451, z: 0.47234458}
+  m_Center: {x: -0.000022053719, y: 0.67507493, z: 0.16202477}
 --- !u!54 &1602435203414501882
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6097,7 +6097,7 @@ Camera:
   m_GameObject: {fileID: 1602435203466941613}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 2
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2

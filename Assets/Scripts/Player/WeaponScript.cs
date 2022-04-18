@@ -45,7 +45,7 @@ public class WeaponScript : MonoBehaviour
         {
 
             Random rand = new Random();
-            int numberOfPunch = rand.Next(1, 2);
+            int numberOfPunch = rand.Next(1, 3);
 
             if (numberOfPunch == 1)
             {
@@ -53,13 +53,13 @@ public class WeaponScript : MonoBehaviour
                 attacked = true;
                 hitSource.PlayOneShot(hitClip);
             }
-            else if (numberOfPunch == 2)
+            else if (numberOfPunch == 20)
             {
                 weaponAnim.SetBool("Attack1", true);
                 attacked = true;
                 hitSource.PlayOneShot(hitClip);
             }
-            else if (numberOfPunch == 3)
+            else if (numberOfPunch == 2)
             {
                 weaponAnim.SetBool("Attack2", true);
                 attacked = true;
@@ -77,6 +77,13 @@ public class WeaponScript : MonoBehaviour
             return;
         }
     }
+    
+    public void AttackShake2()
+    {
+        cameraAnim.SetBool("AttackShake2", true);
+    }
+    
+    
 
     public void StartFOV()
     {
@@ -107,6 +114,7 @@ public class WeaponScript : MonoBehaviour
         attacked = false;
         hitEffect.SetActive(false);
         attackEffect.SetActive(false);
+        shieldScript.canAttack = false;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -116,6 +124,7 @@ public class WeaponScript : MonoBehaviour
             if (other.GetComponent<EnemyMovement>().stunned)
             {
                 other.GetComponent<EnemyMovement>().TakeDamage(damage);
+                Debug.Log("Gotcha!");
             }
             else
             {
