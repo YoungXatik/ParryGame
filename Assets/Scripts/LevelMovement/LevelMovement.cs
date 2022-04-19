@@ -26,8 +26,8 @@ public class LevelMovement : MonoBehaviour
         {
             currentEnemyKills = 0;
             var Seq = DOTween.Sequence();
-            Seq.Append(player.transform.DOMove(points[0].position, movementDuration));
-            Seq.Append(player.transform.DOMove(points[1].position, movementDuration));
+            Seq.Append(player.transform.DOMove(points[0].position, movementDuration)).SetEase(Ease.Linear);
+            Seq.Append(player.transform.DOMove(points[1].position, movementDuration)).SetEase(Ease.Linear);
             StartWalk();
             Invoke("EndWalk",movementDuration * 2);
         }

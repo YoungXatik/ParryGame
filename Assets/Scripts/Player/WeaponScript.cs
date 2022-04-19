@@ -12,6 +12,8 @@ public class WeaponScript : MonoBehaviour
     [SerializeField] public int damage;
     [SerializeField] private bool attacked;
     [SerializeField] public ShieldScript shieldScript;
+    [SerializeField] private bool isKatana;
+    [SerializeField] private BoxCollider katanaCollider;
 
     [Header("Effects")]
     [SerializeField] public GameObject attackEffect;
@@ -24,8 +26,6 @@ public class WeaponScript : MonoBehaviour
     [Header("Camera")] 
     [SerializeField] private Camera mainCamera;
 
-    [SerializeField] private float startFOV;
-    [SerializeField] private float cameraFOV;
 
 
     private void Start()
@@ -34,7 +34,6 @@ public class WeaponScript : MonoBehaviour
         hitEffect.SetActive(false);
         hitSource = GetComponent<AudioSource>();
         shieldScript = FindObjectOfType<ShieldScript>();
-        startFOV = mainCamera.fieldOfView;
     }
 
 
@@ -52,24 +51,40 @@ public class WeaponScript : MonoBehaviour
                 weaponAnim.SetBool("Attack", true);
                 attacked = true;
                 hitSource.PlayOneShot(hitClip);
+                if (isKatana)
+                {
+                    katanaCollider.enabled = false;
+                }
             }
             else if (numberOfPunch == 20)
             {
                 weaponAnim.SetBool("Attack1", true);
                 attacked = true;
                 hitSource.PlayOneShot(hitClip);
+                if (isKatana)
+                {
+                    katanaCollider.enabled = false;
+                }
             }
             else if (numberOfPunch == 2)
             {
                 weaponAnim.SetBool("Attack2", true);
                 attacked = true;
                 hitSource.PlayOneShot(hitClip);
+                if (isKatana)
+                {
+                    katanaCollider.enabled = false;
+                }
             }
             else if (numberOfPunch == 4)
             {
                 weaponAnim.SetBool("Attack3", true);
                 attacked = true;
                 hitSource.PlayOneShot(hitClip);
+                if (isKatana)
+                {
+                    katanaCollider.enabled = false;
+                }
             }
         }
         else
@@ -142,6 +157,10 @@ public class WeaponScript : MonoBehaviour
         hitEffect.SetActive(true);
         attackEffect.SetActive(true);
         Instantiate(hitEffect, hitEffect.transform.position, Quaternion.identity);
+        if (isKatana)
+        {
+            katanaCollider.enabled = true;
+        }
     }
 
     public void HitEffectClose()

@@ -10,6 +10,8 @@ public class ShieldScript : MonoBehaviour
     [SerializeField] public Animator cameraAnim;
     [SerializeField] private GameObject backgroundMusic;
     [SerializeField] private float backgroundMusicVolumeDown;
+    [SerializeField] private bool isKatana;
+    [SerializeField] private BoxCollider katanaCollider;
 
     private void Start()
     {
@@ -29,6 +31,7 @@ public class ShieldScript : MonoBehaviour
     {
         shieldAnim.SetBool("Block", false);
         Block = false;
+       
     }
 
     public void TrueBlockStatus()
@@ -49,11 +52,16 @@ public class ShieldScript : MonoBehaviour
     public void CanAttackFalse()
     {
         canAttack = false;
+        if (isKatana)
+        {
+            katanaCollider.enabled = false;
+        }
     }
 
     public void CanAttackTrue()
     {
         canAttack = true;
+        katanaCollider.enabled = true;
     }
 
 }
