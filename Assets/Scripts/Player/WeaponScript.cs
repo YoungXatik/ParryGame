@@ -23,12 +23,11 @@ public class WeaponScript : MonoBehaviour
     [SerializeField] public AudioClip hitClip;
     [SerializeField] public AudioClip attackClip;
 
-    [Header("Camera")] 
+    [Header("Camera")]
     [SerializeField] private Camera mainCamera;
 
-    //[Header("SlashScript")]
-    //[SerializeField] public WeaponScript weaponScript; // Здесь подключаем скрипт
-
+    [Header("SlashScript")]
+    [SerializeField] public MeleeWeaponTrail weaponTrail; // Здесь подключаем скрипт
 
     private void Start()
     {
@@ -39,7 +38,7 @@ public class WeaponScript : MonoBehaviour
 
         if (isKatana)
         {
-            //weaponScript = GetComponent<>(); Просто убираем слеши, чтобы скрипт сам подключался
+            weaponTrail = GetComponent<MeleeWeaponTrail>();
         }
     }
 
@@ -99,32 +98,32 @@ public class WeaponScript : MonoBehaviour
             return;
         }
     }
-    
+
     public void AttackShake2()
     {
         cameraAnim.SetBool("AttackShake2", true);
     }
-    
-    
+
+
 
     public void StartFOV()
     {
-        cameraAnim.SetBool("FOVStart",true);
+        cameraAnim.SetBool("FOVStart", true);
     }
 
     public void EndStartFOV()
     {
-        cameraAnim.SetBool("FOVStart",false);
+        cameraAnim.SetBool("FOVStart", false);
     }
 
     public void StartFOVBack()
     {
-        cameraAnim.SetBool("FOVBack",true);
+        cameraAnim.SetBool("FOVBack", true);
     }
 
     public void EndFOVBack()
     {
-        cameraAnim.SetBool("FOVBack",false);
+        cameraAnim.SetBool("FOVBack", false);
     }
 
     public void AttackEvent()
@@ -139,7 +138,7 @@ public class WeaponScript : MonoBehaviour
         shieldScript.canAttack = false;
         if (isKatana)
         {
-            //weaponScript.Bool = false; здесь выключай ту самую переменную, которая включает эффект
+            weaponTrail.Emit = false;
         }
     }
 
@@ -171,9 +170,9 @@ public class WeaponScript : MonoBehaviour
         if (isKatana)
         {
             katanaCollider.enabled = true;
-            //weaponScript.Bool = true;   здесь включай ту самую переменную, которая включает эффект
+            weaponTrail.Emit = true;
         }
-        
+
     }
 
     public void HitEffectClose()
@@ -199,8 +198,8 @@ public class WeaponScript : MonoBehaviour
 
     public void HugeCameraAttackShake()
     {
-        cameraAnim.SetBool("HugeAttackShake",true);
+        cameraAnim.SetBool("HugeAttackShake", true);
     }
-    
-    
+
+
 }
