@@ -103,6 +103,26 @@
           </e>
         </e>
         <e p="Epic Toon FX" t="Include">
+          <e p="Changelog.txt" t="Include" />
+          <e p="Demo" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="ETFXButtonScript.cs" t="Include" />
+              <e p="ETFXEffectController.cs" t="Include" />
+              <e p="ETFXEffectControllerPooled.cs" t="Include" />
+              <e p="ETFXEffectCycler.cs" t="Include" />
+              <e p="ETFXFireProjectile.cs" t="Include" />
+              <e p="ETFXLoopScript.cs" t="Include" />
+              <e p="ETFXMouseOrbit.cs" t="Include" />
+              <e p="ETFXProjectileScript.cs" t="Include" />
+              <e p="ETFXSceneManager.cs" t="Include" />
+              <e p="ETFXTarget.cs" t="Include" />
+              <e p="VFX Library" t="Include">
+                <e p="ParticleEffectsLibrary.cs" t="Include" />
+                <e p="PEButtonScript.cs" t="Include" />
+                <e p="UICanvasManager.cs" t="Include" />
+              </e>
+            </e>
+          </e>
           <e p="Prefabs" t="Include">
             <e p="Combat" t="Include">
               <e p="Combat FX.txt" t="Include" />
@@ -110,6 +130,17 @@
             <e p="Environment" t="Include">
               <e p="Environment FX.txt" t="Include" />
             </e>
+            <e p="Interactive" t="Include">
+              <e p="Interactive FX.txt" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="ETFXLightFade.cs" t="Include" />
+            <e p="ETFXPitchRandomizer.cs" t="Include" />
+            <e p="ETFXRotation.cs" t="Include" />
+          </e>
+          <e p="Upgrade" t="Include">
+            <e p="URP Compatibility.txt" t="Include" />
           </e>
         </e>
         <e p="JMO Assets" t="Include">
@@ -119,6 +150,20 @@
               <e p="CFX3 Multiply Color.shader" t="Include" />
               <e p="CFXM_MobileParticleAdd_Alpha8.shader" t="Include" />
             </e>
+          </e>
+        </e>
+        <e p="MeleeWeaponTrail" t="Include">
+          <e p="Example" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="LookAtTarget.cs" t="Include" />
+              <e p="MouseMove.cs" t="Include" />
+              <e p="SwooshTest.cs" t="Include" />
+            </e>
+          </e>
+          <e p="readme.txt" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="Interpolate.cs" t="Include" />
+            <e p="MeleeWeaponTrail.cs" t="Include" />
           </e>
         </e>
         <e p="Plugins" t="Include">

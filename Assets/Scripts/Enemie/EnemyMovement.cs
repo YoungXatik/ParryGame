@@ -243,7 +243,7 @@ public class EnemyMovement : MonoBehaviour
             hitTextAnim.EndParrySecondState();
             parryText.SetActive(false);
             slowMotionEffect.SetActive(false);
-            SlowMotionEnd();
+            Invoke("SlowMotionEnd",0.1f);
             shieldScript.canAttack = false;
          }
          else
@@ -273,7 +273,7 @@ public class EnemyMovement : MonoBehaviour
             hitTextAnim.EndParrySecondState();
             parryText.SetActive(false);
             slowMotionEffect.SetActive(false);
-            SlowMotionEnd();
+            Invoke("SlowMotionEnd",0.1f);
             shieldScript.canAttack = false;
          }
          else

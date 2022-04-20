@@ -46,6 +46,8 @@ public class WeaponScript : MonoBehaviour
 
     public void Attack()
     {
+        weaponTrail.Emit = true;
+        
         if (shieldScript.canAttack)
         {
 
@@ -140,6 +142,7 @@ public class WeaponScript : MonoBehaviour
         {
             weaponTrail.Emit = false;
         }
+        weaponTrail.Emit = false;
     }
 
     private void OnTriggerEnter(Collider other)
@@ -170,7 +173,6 @@ public class WeaponScript : MonoBehaviour
         if (isKatana)
         {
             katanaCollider.enabled = true;
-            weaponTrail.Emit = true;
         }
 
     }
@@ -200,6 +202,7 @@ public class WeaponScript : MonoBehaviour
     {
         cameraAnim.SetBool("HugeAttackShake", true);
     }
+    
 
 
 }
