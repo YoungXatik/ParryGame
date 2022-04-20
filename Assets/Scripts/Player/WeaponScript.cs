@@ -26,6 +26,8 @@ public class WeaponScript : MonoBehaviour
     [Header("Camera")] 
     [SerializeField] private Camera mainCamera;
 
+    //[Header("SlashScript")]
+    //[SerializeField] public WeaponScript weaponScript; // Здесь подключаем скрипт
 
 
     private void Start()
@@ -34,6 +36,11 @@ public class WeaponScript : MonoBehaviour
         hitEffect.SetActive(false);
         hitSource = GetComponent<AudioSource>();
         shieldScript = FindObjectOfType<ShieldScript>();
+
+        if (isKatana)
+        {
+            //weaponScript = GetComponent<>(); Просто убираем слеши, чтобы скрипт сам подключался
+        }
     }
 
 
@@ -130,6 +137,10 @@ public class WeaponScript : MonoBehaviour
         hitEffect.SetActive(false);
         attackEffect.SetActive(false);
         shieldScript.canAttack = false;
+        if (isKatana)
+        {
+            //weaponScript.Bool = false; здесь выключай ту самую переменную, которая включает эффект
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -160,7 +171,9 @@ public class WeaponScript : MonoBehaviour
         if (isKatana)
         {
             katanaCollider.enabled = true;
+            //weaponScript.Bool = true;   здесь включай ту самую переменную, которая включает эффект
         }
+        
     }
 
     public void HitEffectClose()
@@ -188,4 +201,6 @@ public class WeaponScript : MonoBehaviour
     {
         cameraAnim.SetBool("HugeAttackShake",true);
     }
+    
+    
 }

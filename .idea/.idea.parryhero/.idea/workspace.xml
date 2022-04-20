@@ -2,16 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="408c2e2e-8bf1-406c-a42c-b0470257489b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.parryhero/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.parryhero/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.parryhero/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.parryhero/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Anims/Enemies/Samurai/NinjaPunch2.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Enemies/Samurai/NinjaPunch2.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Anims/Enemies/Samurai/NinjaPunch3.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Enemies/Samurai/NinjaPunch3.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Anims/Katana/Punch_1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Katana/Punch_1.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Katana/katana 2.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Katana/katana 2.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Katana/katana_attack_2.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Katana/katana_attack_2.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Katana/katana_attack_3.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Katana/katana_attack_3.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Anims/Katana/katana_idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Katana/katana_idle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Low Poly Animated People/- Animator Controllers/3RD Person.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Low Poly Animated People/- Animator Controllers/3RD Person.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Katana/katana_shield.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Katana/katana_shield.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/man_ninja_Rig.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/man_ninja_Rig.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project Dawn.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project Dawn/Sword Slash.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project Dawn/Sword Slash/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project Dawn/Sword Slash/Models/Distortion.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project Dawn/Sword Slash/Models/Distortion.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project Dawn/Sword Slash/Models/Slash.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project Dawn/Sword Slash/Models/Slash.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project Dawn/Sword Slash/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project Dawn/Sword Slash/Prefabs/Sword Slash Blue.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project Dawn/Sword Slash/Prefabs/Sword Slash Blue.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project Dawn/Sword Slash/Prefabs/Sword Slash Red.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project Dawn/Sword Slash/Prefabs/Sword Slash Red.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project Dawn/Sword Slash/Prefabs/Sword Slash Yellow.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project Dawn/Sword Slash/Prefabs/Sword Slash Yellow.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project Dawn/Sword Slash/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project Dawn/Sword Slash/Textures/Glow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project Dawn/Sword Slash/Textures/Glow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project Dawn/Sword Slash/Textures/Wave_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project Dawn/Sword Slash/Textures/Wave_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project Dawn/Sword Slash/VFX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project Dawn/Sword Slash/VFX/Sword Slash.vfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Project Dawn/Sword Slash/VFX/Sword Slash.vfx.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelMovement/LevelMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelMovement/LevelMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/ShieldScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/ShieldScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/WeaponScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/WeaponScript.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,6 +114,7 @@
       <workItem from="1650247968164" duration="2854000" />
       <workItem from="1650279735203" duration="7043000" />
       <workItem from="1650378554471" duration="4064000" />
+      <workItem from="1650466873809" duration="767000" />
     </task>
     <servers />
   </component>

@@ -1190,7 +1190,7 @@ MonoBehaviour:
   deadEffect: {fileID: 3202516722143409570}
   slowMotionEffect: {fileID: 2274932869151256147}
   hitSource: {fileID: 0}
-  hitClip: {fileID: 8300000, guid: b38a62cc6ea4f944cbe39ccb0ca28955, type: 3}
+  hitClip: {fileID: 8300000, guid: b91229bc8d41aa04c839e64f2c33955a, type: 3}
   walkClip: {fileID: 8300000, guid: 8e85878f35927d240ac9a855270ae38b, type: 3}
   punchHitClip: {fileID: 8300000, guid: 41810743aa18999448ba16f39a101a27, type: 3}
   givenHitClip: {fileID: 8300000, guid: fdc96cf4ec0b25745ba2db21befa104d, type: 3}

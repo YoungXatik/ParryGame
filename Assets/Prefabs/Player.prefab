@@ -7130,7 +7130,7 @@ MonoBehaviour:
   attackEffect: {fileID: 4289658750424731649}
   hitEffect: {fileID: 8561760051439280507}
   hitSource: {fileID: 8121605197508599110}
-  hitClip: {fileID: 8300000, guid: d589999c12cafc24da698fae8672963d, type: 3}
+  hitClip: {fileID: 8300000, guid: ead2a08e6e8bc5f4196e92f48ee1ff40, type: 3}
   attackClip: {fileID: 8300000, guid: 0f80e4192d21cfc479d8b6e67cc8b6fa, type: 3}
   mainCamera: {fileID: 1602435203466941600}
 --- !u!114 &3179655486003996146
