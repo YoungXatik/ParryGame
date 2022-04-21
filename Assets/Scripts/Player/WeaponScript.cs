@@ -47,7 +47,7 @@ public class WeaponScript : MonoBehaviour
     public void Attack()
     {
         weaponTrail.Emit = true;
-        
+
         if (shieldScript.canAttack)
         {
 
@@ -105,8 +105,6 @@ public class WeaponScript : MonoBehaviour
     {
         cameraAnim.SetBool("AttackShake2", true);
     }
-
-
 
     public void StartFOV()
     {
@@ -202,7 +200,7 @@ public class WeaponScript : MonoBehaviour
     {
         cameraAnim.SetBool("HugeAttackShake", true);
     }
-    
+
 
 
 }
