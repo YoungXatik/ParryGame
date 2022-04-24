@@ -37,6 +37,7 @@ public class EnemyMovement : MonoBehaviour
 
    [SerializeField] public bool isLastEnemy;
    [SerializeField] public LevelMovement levelMovement;
+   [SerializeField] private bool isFirstEnemy;
 
    [Header("Effect")]
    [SerializeField] public GameObject stunEffect;
@@ -50,9 +51,11 @@ public class EnemyMovement : MonoBehaviour
 
    [Header("0 - 1")]
    [SerializeField] private float timeScale;
+   [SerializeField] private double cycleOffset;
 
    [SerializeField] private GameObject backgroundMusic;
    [SerializeField] private float backgroundMusicVolumeDown;
+
 
 
    private void Awake()
@@ -62,6 +65,12 @@ public class EnemyMovement : MonoBehaviour
 
    private void Start()
    {
+      /*Random random = new Random();
+      cycleOffset = random.NextDouble();
+      enemyAnimator.SetFloat("CycleOffset",(float)cycleOffset);
+      
+      Debug.Log(cycleOffset);*/
+      
       backgroundMusic = GameObject.FindWithTag("BackGroundMusic");
       backgroundMusicVolumeDown = 0.2f;
       
@@ -91,6 +100,11 @@ public class EnemyMovement : MonoBehaviour
       stunEffect.SetActive(false);
       hitText.SetActive(false);
       parryText.SetActive(false);
+
+      if (isFirstEnemy)
+      {
+         Invoke("EnemyStartAttack",2f);
+      }
    }
 
    private void Update()
@@ -160,20 +174,27 @@ public class EnemyMovement : MonoBehaviour
 
    public void StartCombatPose()
    {
-      if (isNinja)
+      if (isArmed)
       {
-         enemyAnimator.SetBool("NinjaCombatPose",true);
-         parryText.SetActive(true);
+         if (isNinja)
+         {
+            enemyAnimator.SetBool("CombatPose",true);
+         }
+         else
+         {
+            enemyAnimator.SetBool("SwordCombatPose",true);
+         }
       }
       else if (isArmed == false)
       {
-         enemyAnimator.SetBool("CombatPose", true);
-         parryText.SetActive(true);
-      }
-      else if(isArmed)
-      {
-         enemyAnimator.SetBool("SwordCombatPose", true);
-         parryText.SetActive(true);
+         if (isNinja)
+         {
+            enemyAnimator.SetBool("NinjaCombatPose", true);
+         }
+         else
+         {
+            enemyAnimator.SetBool("CombatPose", true);
+         }
       }
    }
 
@@ -221,7 +242,14 @@ public class EnemyMovement : MonoBehaviour
       }
       else if(isArmed)
       {
-         enemyAnimator.SetBool("SwordSlash",true);
+         if (isNinja)
+         {
+            enemyAnimator.SetBool("NinjaSword",true);  
+         }
+         else
+         {
+            enemyAnimator.SetBool("SwordSlash",true);  
+         }
       }
       
       canAttack = false;
@@ -261,36 +289,69 @@ public class EnemyMovement : MonoBehaviour
       }
       else
       {
-         if (shieldScript.Block)
+         if (!isNinja)
          {
-            enemyAnimator.SetBool("SwordGetHit",true);
-            player.blockEffect.gameObject.SetActive(true);
-            player.blockEffect.Play();
-            player.blockEffect.Play();
-            hitSource.PlayOneShot(hitClip);
-            stunned = true;
-            hitText.SetActive(true);
-            hitTextAnim.EndParrySecondState();
-            parryText.SetActive(false);
-            slowMotionEffect.SetActive(false);
-            Invoke("SlowMotionEnd",0.1f);
-            shieldScript.canAttack = false;
+            if (shieldScript.Block)
+            {
+               enemyAnimator.SetBool("SwordGetHit", true);
+               player.blockEffect.gameObject.SetActive(true);
+               player.blockEffect.Play();
+               player.blockEffect.Play();
+               hitSource.PlayOneShot(hitClip);
+               stunned = true;
+               hitText.SetActive(true);
+               hitTextAnim.EndParrySecondState();
+               parryText.SetActive(false);
+               slowMotionEffect.SetActive(false);
+               Invoke("SlowMotionEnd", 0.1f);
+               shieldScript.canAttack = false;
+            }
+            else
+            {
+               enemyAnimator.SetBool("SwordGetHit", false);
+               player.TakeDamage(enemyDamage);
+               player.deadAnimator.SetBool("GetHit", true);
+               player.Invoke("CameraBack", 1f);
+               hitSource.PlayOneShot(givenHitClip);
+               hitTextAnim.EndParrySecondState();
+               parryText.SetActive(false);
+               slowMotionEffect.SetActive(false);
+               SlowMotionEnd();
+            }
          }
          else
          {
-            enemyAnimator.SetBool("SwordGetHit",false);
-            player.TakeDamage(enemyDamage);
-            player.deadAnimator.SetBool("GetHit",true);
-            player.Invoke("CameraBack",1f);
-            hitSource.PlayOneShot(givenHitClip);
-            hitTextAnim.EndParrySecondState();
-            parryText.SetActive(false);
-            slowMotionEffect.SetActive(false);
-            SlowMotionEnd();
+            if (shieldScript.Block)
+            {
+               enemyAnimator.SetBool("GetHit", true);
+               player.blockEffect.gameObject.SetActive(true);
+               player.blockEffect.Play();
+               player.blockEffect.Play();
+               hitSource.PlayOneShot(hitClip);
+               stunned = true;
+               hitText.SetActive(true);
+               hitTextAnim.EndParrySecondState();
+               parryText.SetActive(false);
+               slowMotionEffect.SetActive(false);
+               Invoke("SlowMotionEnd", 0.1f);
+               shieldScript.canAttack = false;
+            }
+            else
+            {
+               enemyAnimator.SetBool("GetHit", false);
+               player.TakeDamage(enemyDamage);
+               player.deadAnimator.SetBool("GetHit", true);
+               player.Invoke("CameraBack", 1f);
+               hitSource.PlayOneShot(givenHitClip);
+               hitTextAnim.EndParrySecondState();
+               parryText.SetActive(false);
+               slowMotionEffect.SetActive(false);
+               SlowMotionEnd();
+            }
          }
       }
-      
-      
+
+
    }
 
    public void EndStunnedState()
@@ -317,6 +378,11 @@ public class EnemyMovement : MonoBehaviour
       {
          nextEnemy.GetComponent<EnemyMovement>().seeDistance =
             Vector3.Distance(nextEnemy.transform.position, playerTarget.position) + 1;
+      }
+      else if (isFirstEnemy)
+      {
+         parryText.SetActive(false);
+         hitText.SetActive(false);
       }
 
       stunned = false;
@@ -365,6 +431,11 @@ public class EnemyMovement : MonoBehaviour
       Time.timeScale = 1f;
       backgroundMusic.GetComponent<AudioSource>().volume += backgroundMusicVolumeDown;
       slowMotionEffect.SetActive(false);
+   }
+
+   public void EnemyStartAttack()
+   {
+      seeDistance = Vector3.Distance(gameObject.transform.position, playerTarget.position) + 1;
    }
    
    
