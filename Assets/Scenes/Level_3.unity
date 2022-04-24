@@ -14344,7 +14344,7 @@ MonoBehaviour:
   points:
   - {fileID: 1943200501}
   - {fileID: 603037020}
-  movementDuration: 4
+  movementDuration: 2
   currentEnemyCount: 1
   currentEnemyKills: 0
   isNinja: 1
