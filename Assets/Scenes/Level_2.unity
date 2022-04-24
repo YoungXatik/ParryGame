@@ -527,6 +527,7 @@ MonoBehaviour:
   movementDuration: 2
   currentEnemyCount: 2
   currentEnemyKills: 0
+  isNinja: 0
 --- !u!1001 &94245739
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1221,6 +1222,7 @@ MonoBehaviour:
   movementDuration: 1.79
   currentEnemyCount: 2
   currentEnemyKills: 0
+  isNinja: 0
 --- !u!4 &237865436
 Transform:
   m_ObjectHideFlags: 0
@@ -6817,8 +6819,16 @@ PrefabInstance:
       value: 82.9
       objectReference: {fileID: 0}
     - target: {fileID: 1602435203466941600, guid: dbe84658019d1584fad3c4a30500485f, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0.9254902
+      objectReference: {fileID: 0}
+    - target: {fileID: 1602435203466941600, guid: dbe84658019d1584fad3c4a30500485f, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0.58431375
+      objectReference: {fileID: 0}
+    - target: {fileID: 1602435203466941600, guid: dbe84658019d1584fad3c4a30500485f, type: 3}
       propertyPath: m_BackGroundColor.r
-      value: 0.50980395
+      value: 0.37254903
       objectReference: {fileID: 0}
     - target: {fileID: 1602435203466941602, guid: dbe84658019d1584fad3c4a30500485f, type: 3}
       propertyPath: m_LocalPosition.y

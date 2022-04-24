@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1206918536}
-  m_IndirectSpecularColor: {r: 0.29459193, g: 0.39826307, b: 0.5889411, a: 1}
+  m_IndirectSpecularColor: {r: 0.5171874, g: 0.37541887, b: 0.5572844, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2484,6 +2484,18 @@ PrefabInstance:
     - target: {fileID: 1602435203466941600, guid: dbe84658019d1584fad3c4a30500485f, type: 3}
       propertyPath: m_FOVAxisMode
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1602435203466941600, guid: dbe84658019d1584fad3c4a30500485f, type: 3}
+      propertyPath: m_BackGroundColor.b
+      value: 0.9245283
+      objectReference: {fileID: 0}
+    - target: {fileID: 1602435203466941600, guid: dbe84658019d1584fad3c4a30500485f, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0.58606756
+      objectReference: {fileID: 0}
+    - target: {fileID: 1602435203466941600, guid: dbe84658019d1584fad3c4a30500485f, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0.37068352
       objectReference: {fileID: 0}
     - target: {fileID: 1602435203466941600, guid: dbe84658019d1584fad3c4a30500485f, type: 3}
       propertyPath: m_CullingMask.m_Bits
@@ -10805,6 +10817,7 @@ MonoBehaviour:
   movementDuration: 2
   currentEnemyCount: 1
   currentEnemyKills: 0
+  isNinja: 0
 --- !u!4 &1318190925
 Transform:
   m_ObjectHideFlags: 0
@@ -13553,6 +13566,7 @@ MonoBehaviour:
   movementDuration: 4
   currentEnemyCount: 1
   currentEnemyKills: 0
+  isNinja: 0
 --- !u!1001 &1753968338
 PrefabInstance:
   m_ObjectHideFlags: 0
