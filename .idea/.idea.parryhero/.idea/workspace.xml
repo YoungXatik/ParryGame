@@ -2,24 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="408c2e2e-8bf1-406c-a42c-b0470257489b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.parryhero/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.parryhero/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.parryhero/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.parryhero/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Anims/Enemies/Samurai/NinjaPunchSword1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Enemies/Samurai/NinjaPunchSword1.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Anims/Player/Main Camera.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Player/Main Camera.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Anims/Weapon/Attack_1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Weapon/Attack_1.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/polyperfect/Low Poly Animated People/- Animator Controllers/3RD Person.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/polyperfect/Low Poly Animated People/- Animator Controllers/3RD Person.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Interactive/Money/Coins/GoldCoinShower.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Prefabs/Interactive/Money/Coins/GoldCoinShower.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Textures/lightning2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Textures/lightning2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MeleeWeaponTrail/Example/Scenes/ExampleSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MeleeWeaponTrail/Example/Scenes/ExampleSettings.lighting.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/man_ninja_Rig.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/man_ninja_Rig.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/man_viking 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/man_viking 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/man_viking.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/man_viking.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/man_viking_armed.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/man_viking_armed.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_0.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_0.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_2.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_2.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemie/EnemyMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemie/EnemyMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_4.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelMovement/LevelMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelMovement/LevelMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +38,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/ShieldScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/WeaponScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LevelMovement/LevelMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemie/EnemyMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelMovement/LevelMovement.cs" />
       </list>
     </option>
   </component>
@@ -102,6 +97,7 @@
       <workItem from="1650466873809" duration="767000" />
       <workItem from="1650493079954" duration="426000" />
       <workItem from="1650789228244" duration="5808000" />
+      <workItem from="1650815075632" duration="644000" />
     </task>
     <servers />
   </component>

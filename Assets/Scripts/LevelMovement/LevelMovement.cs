@@ -8,6 +8,7 @@ public class LevelMovement : MonoBehaviour
     public Player playerAnim;
     public Transform[] points;
     public float movementDuration;
+    public GameObject runEffect;
 
     public int currentEnemyCount;
     public int currentEnemyKills;
@@ -18,6 +19,7 @@ public class LevelMovement : MonoBehaviour
     {
         player = GameObject.FindWithTag("PlayerObject");
         playerAnim = FindObjectOfType<Player>();
+        runEffect.SetActive(false);
     }
 
     public void MoveNext()
@@ -44,6 +46,7 @@ public class LevelMovement : MonoBehaviour
         if (isNinja)
         {
             playerAnim.deadAnimator.SetBool("NinjaWalk",true);
+            runEffect.SetActive(true);
         }
         else
         {
@@ -56,5 +59,6 @@ public class LevelMovement : MonoBehaviour
     {
         playerAnim.deadAnimator.SetBool("Walk",false);
         playerAnim.deadAnimator.SetBool("NinjaWalk",false);
+        runEffect.SetActive(false);
     }
 }

@@ -4882,6 +4882,18 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.05
       objectReference: {fileID: 0}
+    - target: {fileID: 3295827089247621756, guid: dbe84658019d1584fad3c4a30500485f, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3295827089247621756, guid: dbe84658019d1584fad3c4a30500485f, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3295827089247621756, guid: dbe84658019d1584fad3c4a30500485f, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3597664621226682431, guid: dbe84658019d1584fad3c4a30500485f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.428
@@ -10939,6 +10951,11 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 64000013838921310, guid: 0db69629701c5bf45888d5de3264ea84, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0db69629701c5bf45888d5de3264ea84, type: 3}
+--- !u!1 &968892242 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7984827872900009938, guid: dbe84658019d1584fad3c4a30500485f, type: 3}
+  m_PrefabInstance: {fileID: 308669146}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &976888604
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14345,6 +14362,7 @@ MonoBehaviour:
   - {fileID: 1943200501}
   - {fileID: 603037020}
   movementDuration: 2
+  runEffect: {fileID: 968892242}
   currentEnemyCount: 1
   currentEnemyKills: 0
   isNinja: 1
@@ -18694,6 +18712,7 @@ MonoBehaviour:
   - {fileID: 1296040502}
   - {fileID: 66371343}
   movementDuration: 1
+  runEffect: {fileID: 968892242}
   currentEnemyCount: 2
   currentEnemyKills: 0
   isNinja: 0

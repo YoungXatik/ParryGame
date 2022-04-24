@@ -525,6 +525,7 @@ MonoBehaviour:
   - {fileID: 1982933138}
   - {fileID: 2010699434}
   movementDuration: 2
+  runEffect: {fileID: 681696250}
   currentEnemyCount: 1
   currentEnemyKills: 0
   isNinja: 0
@@ -1220,6 +1221,7 @@ MonoBehaviour:
   - {fileID: 1767252347}
   - {fileID: 814890995}
   movementDuration: 1.79
+  runEffect: {fileID: 681696250}
   currentEnemyCount: 2
   currentEnemyKills: 0
   isNinja: 0
@@ -7103,6 +7105,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1602435203414501887, guid: dbe84658019d1584fad3c4a30500485f, type: 3}
   m_PrefabInstance: {fileID: 681696248}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &681696250 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1299712060034060358, guid: dbe84658019d1584fad3c4a30500485f, type: 3}
+  m_PrefabInstance: {fileID: 681696248}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &689163254
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8912,6 +8919,7 @@ MonoBehaviour:
   - {fileID: 1120163378}
   - {fileID: 643953681}
   movementDuration: 4
+  runEffect: {fileID: 0}
   currentEnemyCount: 1
   currentEnemyKills: 0
   isNinja: 0
