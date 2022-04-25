@@ -13516,7 +13516,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1745550629}
-  - component: {fileID: 1745550630}
   m_Layer: 0
   m_Name: Ground2
   m_TagString: Untagged
@@ -13552,28 +13551,6 @@ Transform:
   m_Father: {fileID: 945649058}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1745550630
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1745550628}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53c4b1e89fb24fc458df34c36c3105c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1899988560}
-  playerAnim: {fileID: 0}
-  points:
-  - {fileID: 68387470}
-  - {fileID: 995427530}
-  movementDuration: 4
-  runEffect: {fileID: 0}
-  currentEnemyCount: 1
-  currentEnemyKills: 0
-  isNinja: 0
 --- !u!1001 &1753968338
 PrefabInstance:
   m_ObjectHideFlags: 0

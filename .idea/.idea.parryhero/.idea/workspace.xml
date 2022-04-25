@@ -4,16 +4,10 @@
     <list default="true" id="408c2e2e-8bf1-406c-a42c-b0470257489b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.parryhero/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.parryhero/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.parryhero/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.parryhero/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Epic Toon FX/Textures/lightning2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Epic Toon FX/Textures/lightning2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeleeWeaponTrail/Example/Scenes/ExampleSettings.lighting" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MeleeWeaponTrail/Example/Scenes/ExampleSettings.lighting.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Camera/AttackShake2.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Camera/AttackShake2.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Weapon/Attack_1.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Weapon/Attack_1.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Anims/Weapon/Attack_3.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Anims/Weapon/Attack_3.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_0.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_0.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level_4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level_4.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelMovement/LevelMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelMovement/LevelMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,9 +31,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/GetReward.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/ShieldScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/WeaponScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemie/EnemyMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelMovement/LevelMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/WeaponScript.cs" />
       </list>
     </option>
   </component>
@@ -98,6 +92,7 @@
       <workItem from="1650493079954" duration="426000" />
       <workItem from="1650789228244" duration="5808000" />
       <workItem from="1650815075632" duration="644000" />
+      <workItem from="1650880513740" duration="1732000" />
     </task>
     <servers />
   </component>

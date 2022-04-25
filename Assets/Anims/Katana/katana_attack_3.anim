@@ -65,14 +65,14 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.71666664
         value: {x: -181.55, y: -99.70401, z: -276.677}
-        inSlope: {x: 189.96002, y: 0, z: 0}
-        outSlope: {x: 189.96002, y: 0, z: 0}
+        inSlope: {x: 223.88144, y: 0, z: 0}
+        outSlope: {x: 223.88144, y: 0, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-        time: 0.93333334
+        time: 0.85
         value: {x: -129.575, y: -353.849, z: -130.314}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -136,14 +136,14 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.71666664
         value: {x: 0.138, y: -0.48, z: 0.681}
-        inSlope: {x: 1.1618181, y: 0, z: -1.4290907}
-        outSlope: {x: 1.1618181, y: 0, z: -1.4290907}
+        inSlope: {x: 1.3692856, y: 0, z: -1.6842855}
+        outSlope: {x: 1.3692856, y: 0, z: -1.6842855}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-        time: 0.93333334
+        time: 0.85
         value: {x: 0.428, y: -0.644, z: 0.338}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -185,7 +185,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.93333334
+    m_StopTime: 0.85
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -252,14 +252,14 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.71666664
         value: 0.138
-        inSlope: 1.1618181
-        outSlope: 1.1618181
+        inSlope: 1.3692856
+        outSlope: 1.3692856
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.93333334
+        time: 0.85
         value: 0.428
         inSlope: 0
         outSlope: 0
@@ -332,7 +332,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.93333334
+        time: 0.85
         value: -0.644
         inSlope: 0
         outSlope: 0
@@ -398,14 +398,14 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.71666664
         value: 0.681
-        inSlope: -1.4290907
-        outSlope: -1.4290907
+        inSlope: -1.6842855
+        outSlope: -1.6842855
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.93333334
+        time: 0.85
         value: 0.338
         inSlope: 0
         outSlope: 0
@@ -471,14 +471,14 @@ AnimationClip:
       - serializedVersion: 3
         time: 0.71666664
         value: -181.55
-        inSlope: 189.96002
-        outSlope: 189.96002
+        inSlope: 223.88144
+        outSlope: 223.88144
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.93333334
+        time: 0.85
         value: -129.575
         inSlope: 0
         outSlope: 0
@@ -551,7 +551,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.93333334
+        time: 0.85
         value: -353.849
         inSlope: 0
         outSlope: 0
@@ -624,7 +624,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 0.93333334
+        time: 0.85
         value: -130.314
         inSlope: 0
         outSlope: 0
@@ -673,8 +673,22 @@ AnimationClip:
   m_HasGenericRootTransform: 1
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.1
+  - time: 0.016666668
     functionName: StartFOV
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.18333334
+    functionName: EndStartFOV
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.18333334
+    functionName: StartFOVBack
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -688,7 +702,7 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 0.35
-    functionName: EndStartFOV
+    functionName: CameraAttackShake
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -702,7 +716,7 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 0.35
-    functionName: CameraAttackShake
+    functionName: EndFOVBack
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -715,22 +729,8 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.68333334
-    functionName: StartFOVBack
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 0.93333334
+  - time: 0.85
     functionName: AttackEvent
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 0.93333334
-    functionName: EndFOVBack
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
